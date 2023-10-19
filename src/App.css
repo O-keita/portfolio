@@ -1,0 +1,36 @@
+body{
+  background-color: #212124;
+  color: white;
+  color: lightblue;
+}
+
+.mypic{
+  border-radius: 50%;
+  height:300px;
+  width:250px;
+}
+
+.background {
+  position: fixed;    /* This makes the background fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?size=626&ext=jpg&ga=GA1.1.1845959269.1697683742&semt=ais'); /* Specify the background image */
+  background-size: cover; /* Adjust the size of the background image */
+  z-index: -1; /* Ensure the background is behind the content */
+  background-color: #000;
+  opacity: 0.3;
+  animation: backgroundAnimation 20s linear infinite;
+}
+@keyframes backgroundAnimation {
+  0% {
+      transform: scale(1); /* Initial scale */
+  }
+  50% {
+      transform: scale(1.1); /* Scale up at 50% of animation */
+  }
+  100% {
+      transform: scale(1); /* Return to original scale at the end */
+  }
+}
