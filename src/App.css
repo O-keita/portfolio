@@ -1,7 +1,6 @@
 body{
   background-color: #212124;
   color: white;
-  color: lightblue;
 }
 
 .mypic{
@@ -16,21 +15,23 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?size=626&ext=jpg&ga=GA1.1.1845959269.1697683742&semt=ais'); /* Specify the background image */
+  background-image:url('https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover; /* Adjust the size of the background image */
   z-index: -1; /* Ensure the background is behind the content */
   background-color: #000;
-  opacity: 0.3;
+  opacity: 0.7;
   animation: backgroundAnimation 20s linear infinite;
+  background-position: center;
 }
 @keyframes backgroundAnimation {
   0% {
       transform: scale(1); /* Initial scale */
   }
-  50% {
+  40% {
       transform: scale(1.1); /* Scale up at 50% of animation */
   }
   100% {
       transform: scale(1); /* Return to original scale at the end */
   }
 }
+
