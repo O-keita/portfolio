@@ -9,6 +9,7 @@ import About from './About/About';
 import Skills from './Skills/Skills';
 import Space from './Space/Space';
 import Contacts from './Contacts/Contacts';
+import Education from './Education/Education';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,8 @@ root.render(
   <Header/>
   <Home/>
   <About/>
+  <Space/>
+  <Education/>
   <Space/>
   <Skills/>
   <Contacts/>

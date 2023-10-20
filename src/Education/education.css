@@ -1,0 +1,81 @@
+.education{
+    width: auto;
+    background-color: white;
+    color: black;
+    padding: 3%;
+   
+
+}
+
+.edu-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.edu-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:3%;
+    padding:0%;
+    width: 300px;
+    box-shadow: 0px 0px 12px rgba(119, 118, 118, 0.5);
+    border-radius: 7px;
+}
+
+.edu-img img{
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+
+}
+
+.edu-role{
+    width: 300px;
+    height:200px;
+    text-align: left;
+    box-shadow: 0px 0px 12px rgba(119, 118, 118, 0.5);
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    
+    
+}
+
+.edu-date, .edu-discription,.school{
+    margin: 3% 2%;
+}
+
+.edu-date{
+    color:blue;
+    font-weight:600;
+}
+
+.edu-discription{
+    font-size:19px;
+    font-weight: 700;
+}
+@media (max-width:650px){
+
+    .edu-card{
+        width: 250px;
+
+    }
+
+    .edu-img img{
+        width: 250px;
+    }
+    .edu-role{
+        width: 250px;
+    }
+
+
+}
