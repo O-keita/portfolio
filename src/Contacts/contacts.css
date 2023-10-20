@@ -1,0 +1,22 @@
+.contacts{
+    background-color: black;
+    opacity: 0.9;
+}
+.socials{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    flex-direction: column;
+    padding: 3%;
+    
+}
+
+.icons{
+    font-size: 1.5rem;
+    color: #25CAAC;
+    margin:2% 0%;
+}
+
+.facebook-icon,.linkedin-icon, .email-icon{
+    color: #25CAAC;
+}
