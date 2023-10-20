@@ -5,6 +5,9 @@ import "./App.css"
 import reportWebVitals from './reportWebVitals';
 import { Header } from './Header/Header';
 import Home from './Home/Home';
+import About from './About/About';
+import Skills from './Skills/Skills';
+import Space from './Space/Space';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +15,9 @@ root.render(
 
   <Header/>
   <Home/>
+  <About/>
+  <Space/>
+  <Skills/>
 
   </React.StrictMode>
 );

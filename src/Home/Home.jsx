@@ -1,12 +1,15 @@
 import React from 'react'
-
+import "./Home.css"
 
 
 function Home() {
   return (
-    <div>
+    <div id='home'>
       <div className="background"></div>
-      <h1><span>Hi</span><br/><span> I'am Omar Keita</span><br /><span>Software Developer</span></h1>
+      <div className="home">
+        <h1><span>Hi</span><br/><span className='name'> I'am Omar</span><br /><span className='role'>Software Developer</span></h1>
+      </div>
+      
        
 
        
