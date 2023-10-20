@@ -7,7 +7,7 @@ import nusrat from "./cropped-logo-1.webp"
 
 const Education = () => {
   return (
-    <div className='education'>
+    <div className='education' id='education'>
         <div className="title"><span>Education</span></div>
         <div className="edu-container">
             
