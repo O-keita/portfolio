@@ -30,7 +30,7 @@ const Education = () => {
             <Educationcard
                 img={nusrat}
                 school ="Nusrat Senior Secondary School "
-                date="2018 - 2019"
+                date="2018 - 2021"
                 discription = "Commerce"
             />
         </div>
