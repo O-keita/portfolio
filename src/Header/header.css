@@ -9,6 +9,7 @@
     position: fixed;
     z-index: 100;
     background-color: black;
+    height:80px;
     
 }
 
@@ -50,13 +51,31 @@
     padding:2% 5%;
     color: white;
 }
+
+.links ul li a::after{
+    content: '';
+    display: block;
+    width:0%;
+    background-color: #25CAAC;
+    height: 2px;
+}
 .menu,.close-menu{
     display: none;
     font-size:1.7rem;
     margin: 0;  
     cursor: pointer;
+   
     
 }
+
+.links ul li:hover a::after{
+
+    width: 100%;
+    transition: 0.7s ease;
+
+
+}
+
 
 .nav-bar-expand{
     display: flex;
@@ -73,6 +92,8 @@
     
     
 }
+
+
 .nav-bar-expand li{
     list-style: none;
     margin: 4% 2%;
