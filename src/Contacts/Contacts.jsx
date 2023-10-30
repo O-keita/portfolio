@@ -4,7 +4,7 @@ import {BiLogoLinkedin} from "react-icons/bi"
 import {FaFacebookF} from "react-icons/fa"
 import {BiLogoGmail} from "react-icons/bi"
 import {AiOutlineDownload} from "react-icons/ai"
-import CV from "./FinalCV.pdf"
+import CV from "./Resume.pdf"
 
 const Contacts = () => {
 
